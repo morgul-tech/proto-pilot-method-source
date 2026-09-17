@@ -1,0 +1,33 @@
+{
+  "schema": "proto-pilot-bootstrap-validation-receipt/0.1",
+  "observed_at": "2026-09-17T23:01:36.9793541+02:00",
+  "access_path": "PUBLIC_HTTPS_ANONYMOUS",
+  "authentication_used": false,
+  "repository": "morgul-tech/proto-pilot-method-source",
+  "channel": "pilot",
+  "source_release_id": "boot-source-v0.2.0",
+  "source_release_commit": "0060e04eecb144c651c03889f9b3f69d680c7d40",
+  "package_id": "proto-bootstrap-v0.1-candidate",
+  "package_commit": "acb675dacfc4a7b0d8bb965c01c65150173c9def",
+  "package_source_dependency_match": true,
+  "files": [
+    {"role":"bootstrap_method_body","sha256":"34377bf0af3dc7153c9fa071d57e231cced0f336c4a710dd12a70821e2efb872","match":true},
+    {"role":"private_continuity_method","sha256":"c8ccb46efceebcea888540ee4d9d88d1d385652a213b17186e8d6bc97600b513","match":true},
+    {"role":"exact_project_instructions","sha256":"389d40528e203605ada765640b5846c454589a65d3731eab3cf9e3a292827d35","match":true},
+    {"role":"exact_first_activation","sha256":"6ff44ef30690df6108471299e5a663dcc5662afa0b3c82c2562d76b006b5b714","match":true},
+    {"role":"package_canary","sha256":"9eb068ba837780d490daa4239a121139e8d7d993da08253c3cf7de91e15da198","match":true}
+  ],
+  "expected_canary": "PROTO_PILOT_BOOTSTRAP_PACKAGE_CANARY=v0.1",
+  "observed_canary": "PROTO_PILOT_BOOTSTRAP_PACKAGE_CANARY=v0.1",
+  "package_file_hashes": "PASS",
+  "package_canary_match": true,
+  "bootstrap_package_pass": true,
+  "effect_boundary": "SOURCE_AND_PACKAGE_FETCH_VALIDATION_ONLY",
+  "not_proven": [
+    "CHATGPT_PROJECT_UI_REHEARSAL",
+    "PROJECT_INSTRUCTIONS_PROVIDER_EFFECT",
+    "PRIVATE_RELATIONSHIP_NAMESPACE",
+    "PRIVATE_CONTINUITY_WRITE_READBACK",
+    "FIRST_REAL_GJENKLANG"
+  ]
+}
