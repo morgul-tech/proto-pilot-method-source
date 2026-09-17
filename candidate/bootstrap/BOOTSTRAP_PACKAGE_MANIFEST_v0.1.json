@@ -1,0 +1,52 @@
+{
+  "schema": "proto-pilot-bootstrap-package-candidate/0.1",
+  "package_id": "proto-bootstrap-v0.1-candidate",
+  "state": "LIVING_CANDIDATE_NOT_PROMOTED",
+  "source_dependency": {
+    "release_id": "boot-source-v0.2.0",
+    "immutable_commit": "0060e04eecb144c651c03889f9b3f69d680c7d40",
+    "manifest_sha256": "9568484f8b3b5c853f6db2a3ea9b10b19720595b8a8aa04b98203b75727b6548"
+  },
+  "files": [
+    {
+      "path": "candidate/bootstrap/PROTO_PILOT_BOOTSTRAP_BODY_v0.1.md",
+      "role": "bootstrap_method_body",
+      "sha256": "34377bf0af3dc7153c9fa071d57e231cced0f336c4a710dd12a70821e2efb872"
+    },
+    {
+      "path": "candidate/bootstrap/PRIVATE_CONTINUITY_MINIMUM_v0.1.md",
+      "role": "private_continuity_method",
+      "sha256": "c8ccb46efceebcea888540ee4d9d88d1d385652a213b17186e8d6bc97600b513"
+    },
+    {
+      "path": "candidate/bootstrap/PROTO_PROJECT_INSTRUCTIONS_v0.1.txt",
+      "role": "exact_project_instructions",
+      "sha256": "389d40528e203605ada765640b5846c454589a65d3731eab3cf9e3a292827d35"
+    },
+    {
+      "path": "candidate/bootstrap/ACTIVATE_GJENKLANG_v0.1.txt",
+      "role": "exact_first_activation",
+      "sha256": "6ff44ef30690df6108471299e5a663dcc5662afa0b3c82c2562d76b006b5b714"
+    },
+    {
+      "path": "candidate/bootstrap/BOOTSTRAP_PACKAGE_CANARY_v0.1.txt",
+      "role": "package_canary",
+      "sha256": "9eb068ba837780d490daa4239a121139e8d7d993da08253c3cf7de91e15da198"
+    }
+  ],
+  "expected_canary": "PROTO_PILOT_BOOTSTRAP_PACKAGE_CANARY=v0.1",
+  "human_install_shape": {
+    "project_instructions": "copy exact PROTO_PROJECT_INSTRUCTIONS_v0.1.txt into Project settings",
+    "project_source": "use the smallest bootstrap carrier that resolves and validates the immutable public Source",
+    "first_chat_message": "GJENKLANG"
+  },
+  "guards": [
+    "CANDIDATE_NE_APPROVED_RELEASE",
+    "PRIVATE_INSTANCE_VALUES_NE_PUBLIC_SOURCE",
+    "HUMAN_NE_GITHUB_OPERATOR",
+    "FIRST_TIME_BOOTSTRAP_NE_ROUTINE_PATCH",
+    "SOURCE_PASS_NE_GJENKLANG_READY",
+    "NO_MANUEL_SPECIFIC_PRELOAD"
+  ],
+  "promotion_gate": "fresh public package verification + exact Project/UI rehearsal + bounded private continuity readback"
+}
