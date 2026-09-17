@@ -1,0 +1,36 @@
+{
+  "schema": "proto-pilot-bootstrap-client-proof/0.2",
+  "package_id": "proto-bootstrap-v0.1-candidate",
+  "package_commit": "acb675dacfc4a7b0d8bb965c01c65150173c9def",
+  "identity_method": "github_contents_blob_sha",
+  "purpose": "Allow a fresh public-web ChatGPT client to verify exact package file identities without computing SHA256 locally.",
+  "files": [
+    {
+      "path": "candidate/bootstrap/PROTO_PILOT_BOOTSTRAP_BODY_v0.1.md",
+      "github_blob_sha": "ea599890f225ee88e03e5d5ce61a350902386c98"
+    },
+    {
+      "path": "candidate/bootstrap/PRIVATE_CONTINUITY_MINIMUM_v0.1.md",
+      "github_blob_sha": "212503bcb06e1e883d6c1a82204333e1425d401a"
+    },
+    {
+      "path": "candidate/bootstrap/PROTO_PROJECT_INSTRUCTIONS_v0.1.txt",
+      "github_blob_sha": "bbecada8e4223eac38009f751dcb384b7e88cb97"
+    },
+    {
+      "path": "candidate/bootstrap/ACTIVATE_GJENKLANG_v0.1.txt",
+      "github_blob_sha": "9c96d105299ad2cf870f0786b87ace4c38297a8e"
+    },
+    {
+      "path": "candidate/bootstrap/BOOTSTRAP_PACKAGE_CANARY_v0.1.txt",
+      "github_blob_sha": "039985882a831111e757e2fe3edfe30dbb860257"
+    }
+  ],
+  "expected_canary": "PROTO_PILOT_BOOTSTRAP_PACKAGE_CANARY=v0.1",
+  "client_pass_rule": "PASS only when each exact path at package_commit is publicly reachable through GitHub public web/API metadata, each provider-returned blob SHA matches exactly, and the canary text matches exactly.",
+  "notes": [
+    "SHA256 digests remain maintainer-side evidence but are not required from clients that cannot compute raw-byte SHA256.",
+    "Exact immutable package commit remains authoritative.",
+    "No private Human state is present or authorized by this proof."
+  ]
+}
