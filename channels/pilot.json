@@ -1,13 +1,15 @@
 {
-  "schema": "proto-pilot-channel/0.1",
+  "schema": "proto-pilot-channel/0.2",
   "source_id": "morgul-tech/proto-pilot-method-source",
   "channel": "pilot",
-  "probe_version": "v0.1-test",
-  "boot_contract_path": "BOOT.md",
-  "canary_path": "canary/BOOT_CANARY.txt",
-  "expected_marker": "PROTO_PILOT_SHARED_SOURCE_BOOT_CANARY=v0.1-test",
+  "source_mode": "public_anonymous_read",
+  "probe_version": "v0.2-public-test",
+  "boot_contract_path": "prototype/PROTO_BOOT_MASTER_v0.2.md",
+  "canary_path": "canary/BOOT_CANARY_v0.2.txt",
+  "expected_marker": "PROTO_PILOT_PUBLIC_SOURCE_BOOT_CANARY=v0.2-public-test",
   "internet_required": true,
-  "authorized_source_required": true,
-  "source_auth_fail": "BOOT_FAIL",
-  "gjengklang_requires_boot_pass": true
+  "auth_required": false,
+  "source_read_fail": "BOOT_FAIL",
+  "gjengklang_requires_boot_pass": true,
+  "private_human_state_allowed": false
 }
