@@ -1,0 +1,13 @@
+{
+  "schema": "proto-pilot-channel/0.1",
+  "source_id": "morgul-tech/proto-pilot-method-source",
+  "channel": "pilot",
+  "probe_version": "v0.1-test",
+  "boot_contract_path": "BOOT.md",
+  "canary_path": "canary/BOOT_CANARY.txt",
+  "expected_marker": "PROTO_PILOT_SHARED_SOURCE_BOOT_CANARY=v0.1-test",
+  "internet_required": true,
+  "authorized_source_required": true,
+  "source_auth_fail": "BOOT_FAIL",
+  "gjengklang_requires_boot_pass": true
+}
