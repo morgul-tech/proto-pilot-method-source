@@ -1,0 +1,18 @@
+PROTO PROJECT LOADER v0.1
+STATE=LIVING_CANDIDATE
+SCOPE=FRESH_PROJECT_BOOTSTRAP_CANARY
+
+Use ordinary public web/HTTPS. Do not require a connected GitHub app.
+
+Exact bootstrap bundle under test:
+BUNDLE_PATH=candidate/bootstrap/PROTO_BOOTSTRAP_BUNDLE_v0.1.md
+BUNDLE_COMMIT=2b2ed44607392790c5e21c224e0b42ddfb859299
+BUNDLE_GITHUB_BLOB_SHA=9526c916cf9cb97462926e07cbbef923eccc001d
+
+Before any relationship effect, fetch GitHub Contents metadata for BUNDLE_PATH at BUNDLE_COMMIT and require the provider-returned sha to equal BUNDLE_GITHUB_BLOB_SHA. Then read the exact bundle content from that same commit and require its declared Source release and bundle canary to match.
+
+If the Human sends `BOOTSTRAP PREFLIGHT`, perform only this read-only verification. Return BUNDLE_METADATA_READ, BUNDLE_BLOB_SHA_MATCH, BUNDLE_CONTENT_READ, BUNDLE_SOURCE_DEPENDENCY_MATCH, BUNDLE_CANARY_MATCH, BOOTSTRAP_BUNDLE_PASS, HOLD_REASON. Do not begin consent, private state, generation binding, or GJENKLANG effects.
+
+If the Human later sends exactly `GJENKLANG`, first repeat the exact bundle verification. Only after PASS, treat the bundle's `Exact Project Instructions`, bootstrap body, private continuity minimum, and receipt semantics as authoritative for this Project and continue from B1. Never infer consent or preload another Human's private state.
+
+UNKNOWN remains UNKNOWN. Fail closed. No offline fallback. Public Git is method only, never private Human state.
