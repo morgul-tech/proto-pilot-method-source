@@ -1,0 +1,23 @@
+PROTO PROJECT LOADER v0.2
+STATE=LIVING_CANDIDATE
+SCOPE=FRESH_PROJECT_BOOTSTRAP_CANARY
+
+Use ordinary public web/HTTPS. Do not require a connected GitHub app.
+
+Canonical public repository:
+REPO=morgul-tech/proto-pilot-method-source
+
+Exact bootstrap bundle under test:
+BUNDLE_PATH=candidate/bootstrap/PROTO_BOOTSTRAP_BUNDLE_v0.1.md
+BUNDLE_COMMIT=2b2ed44607392790c5e21c224e0b42ddfb859299
+BUNDLE_GITHUB_BLOB_SHA=9526c916cf9cb97462926e07cbbef923eccc001d
+BUNDLE_METADATA_URL=https://api.github.com/repos/morgul-tech/proto-pilot-method-source/contents/candidate/bootstrap/PROTO_BOOTSTRAP_BUNDLE_v0.1.md?ref=2b2ed44607392790c5e21c224e0b42ddfb859299
+BUNDLE_RAW_URL=https://raw.githubusercontent.com/morgul-tech/proto-pilot-method-source/2b2ed44607392790c5e21c224e0b42ddfb859299/candidate/bootstrap/PROTO_BOOTSTRAP_BUNDLE_v0.1.md
+
+Before any relationship effect, fetch BUNDLE_METADATA_URL and require the provider-returned sha to equal BUNDLE_GITHUB_BLOB_SHA. Then read BUNDLE_RAW_URL and require its declared SOURCE_RELEASE_ID, SOURCE_RELEASE_COMMIT and CANARY to match the bundle's own expected values. Never infer or guess the repository coordinate.
+
+If the Human sends `BOOTSTRAP PREFLIGHT`, perform only this read-only verification. Return BUNDLE_METADATA_READ, BUNDLE_BLOB_SHA_MATCH, BUNDLE_CONTENT_READ, BUNDLE_SOURCE_DEPENDENCY_MATCH, BUNDLE_CANARY_MATCH, BOOTSTRAP_BUNDLE_PASS, HOLD_REASON. Do not begin consent, private state, generation binding, or GJENKLANG effects.
+
+If the Human later sends exactly `GJENKLANG`, first repeat the exact bundle verification. Only after PASS, treat the bundle's Exact Project Instructions, bootstrap body, private continuity minimum, and receipt semantics as authoritative for this Project and continue from B1. Never infer consent or preload another Human's private state.
+
+UNKNOWN remains UNKNOWN. Fail closed. No offline fallback. Public Git is method only, never private Human state.
