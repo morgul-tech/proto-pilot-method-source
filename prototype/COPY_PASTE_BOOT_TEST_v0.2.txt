@@ -1,0 +1,14 @@
+BOOT TEST — PUBLIC READ ONLY
+
+This is a standalone source-access test in a fresh ordinary ChatGPT chat. It is NOT Saga, NOT a Saga task, and must not read or modify any existing project relationship state.
+
+Use ordinary public web/HTTPS access — not a connected GitHub app/connector — to read and run the boot contract at:
+`https://github.com/morgul-tech/proto-pilot-method-source/blob/main/prototype/PROTO_BOOT_MASTER_v0.2.md`
+
+Requirements:
+- Read the master fresh from the public repository.
+- Follow it exactly.
+- Do not sign in to GitHub or require a GitHub account for this test.
+- Do not guess if the public Source is unavailable or unreadable.
+- Do not create, update, delete, push, tag, release, or modify anything.
+- Return only the receipt block defined by the master plus one short sentence stating PASS or FAIL.
