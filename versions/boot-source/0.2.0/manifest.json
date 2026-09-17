@@ -1,0 +1,26 @@
+{
+  "schema": "proto-pilot-immutable-manifest/0.1",
+  "release_id": "boot-source-v0.2.0",
+  "scope": "generic_pilot_shared_source_bootstrap",
+  "source_mode": "public_anonymous_read",
+  "private_human_state_allowed": false,
+  "files": [
+    {
+      "path": "versions/boot-source/0.2.0/PROTO_PILOT_TINY_BOOT_MASTER.md",
+      "sha256": "325fccec18d8cd2e868743d67fc15e5cb175d276ee9d82e6c47aab3a1cba9232",
+      "role": "boot_tiny_master"
+    },
+    {
+      "path": "versions/boot-source/0.2.0/BOOT_CANARY.txt",
+      "sha256": "ec6446a97cb01b16c1542e122d057856fa08e445b9e4432e8db81856bcf4f780",
+      "role": "source_canary"
+    }
+  ],
+  "expected_marker": "PROTO_PILOT_PUBLIC_SOURCE_BOOT_CANARY=boot-source-v0.2.0",
+  "guards": [
+    "MUTABLE_CHANNEL_NE_IMMUTABLE_RELEASE",
+    "PRIVATE_HUMAN_STATE_NE_PUBLIC_SOURCE",
+    "GJENKLANG_EFFECT=NO",
+    "NO_OFFLINE_FALLBACK_CURRENT_PILOT"
+  ]
+}
