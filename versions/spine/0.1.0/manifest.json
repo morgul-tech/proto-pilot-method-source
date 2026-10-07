@@ -1,0 +1,57 @@
+{
+  "schema": "proto-pilot-spine-immutable-manifest/0.1",
+  "release_id": "spine-v0.1.0",
+  "scope": "generic_pilot_shared_method_spine",
+  "source_mode": "public_anonymous_read",
+  "private_human_state_allowed": false,
+  "selection_and_uptake": "EXTERNAL_TO_IMMUTABLE_RELEASE",
+  "source_candidate_basis": {
+    "repository": "morgul-tech/proto-pilot-method-source",
+    "main_commit": "55d2144d0efe96be2fee86aa99c82948350dc1c1"
+  },
+  "boot_compatibility": {
+    "release_id": "boot-source-v0.2.0",
+    "release_commit": "0060e04eecb144c651c03889f9b3f69d680c7d40",
+    "relationship": "SEPARATE_IDENTITY_NOT_REPLACED_BY_SPINE"
+  },
+  "files": [
+    {
+      "path": "versions/spine/0.1.0/PILOT_SPINE_METHOD.md",
+      "sha256": "1fa0b069a7c2b3399814b418e37401fd5841ef77ccbabc2c43a76689f021716c",
+      "git_blob_sha": "c2c652d1a7f92cdec18987867dc0d1f83f84710c",
+      "bytes": 5704,
+      "role": "shared_method"
+    },
+    {
+      "path": "versions/spine/0.1.0/PILOT_SPINE_START_CARD.md",
+      "sha256": "b254c15155bcbafc19ff134e9218098044cea1f82f445a735ce24c8d1ea646fb",
+      "git_blob_sha": "cf3c919a233fd4324f87c15c446dc247d1305ab6",
+      "bytes": 1065,
+      "role": "ordinary_entry_card"
+    },
+    {
+      "path": "versions/spine/0.1.0/EXISTING_PILOT_METHOD_UPDATE.md",
+      "sha256": "8b27c7faabd603ca162f835c23c8e117ebe54e9c7bb2c9f34579111cd610a155",
+      "git_blob_sha": "3bf0ddfe570c38f6580ca47e8fdb5e9ef73e166a",
+      "bytes": 2054,
+      "role": "existing_pilot_update_method"
+    },
+    {
+      "path": "versions/spine/0.1.0/SPINE_CANARY.txt",
+      "sha256": "ac0289f9f1e9a4950adfd161537e614ed2d95a4a000fe2172a816176952c916c",
+      "git_blob_sha": "d245809518da883b713e25b8498f361a1da1f627",
+      "bytes": 46,
+      "role": "release_canary"
+    }
+  ],
+  "expected_marker": "PROTO_PILOT_SPINE_RELEASE_CANARY=spine-v0.1.0",
+  "guards": [
+    "MUTABLE_SELECTION_NE_IMMUTABLE_RELEASE",
+    "BOOT_SOURCE_IDENTITY_NE_SPINE_IDENTITY",
+    "PRIVATE_HUMAN_STATE_NE_PUBLIC_SOURCE",
+    "SOURCE_PRESENT_NE_PILOT_UPTAKE",
+    "PILOT_UPTAKE_NE_FIELD_BENEFIT",
+    "METHOD_UPDATE_NE_LIFECYCLE",
+    "PREDECESSOR_PRIVATE_DIARY_ACCESS=DENY"
+  ]
+}
