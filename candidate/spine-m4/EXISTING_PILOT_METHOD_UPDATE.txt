@@ -1,0 +1,18 @@
+METHOD_CANDIDATE_ID=PILOT_SPINE_NEXT_M4_20261013
+STATE=TEST_CANDIDATE_NOT_RELEASED
+SCOPE=ONE_SHARED_METHOD_UPDATE;NO_PERSON_SPECIFIC_VARIANT
+
+Dette er en metodeoppdatering på plass, ikke ny BOOT, Gjenklang eller full reinstallasjon.
+Før faktisk innføring, under riktig mandat:
+• kvalifiser eksakt valgt ny kandidat/release og nødvendig innhold;
+• les pilotens faktisk aktuelle valgte metode, generasjon, stabil/Living Family, samtykker, kontinuitetsinngang, bokfunksjoner og lokale tillegg i nødvendig lovlig dybde;
+• behold målgruppe/hele funksjon separat fra en første pilots avgrensede innføringsbevis;
+• avklar den faktiske klientens normale inngang og nødvendige lese-/skrivetilgang før installasjonsløfte.
+Leverandørens datidige snapshot er en orientering; lokal aktuell sannhet ved innføring styrer.
+Fang før material metodeendring: eksakt gammel metode/binding, relevant generasjon, boot-identitet, private hjem/pekeridentiteter, lokale samtykker/valg og den bestemte oppdateringens identitet/innhold.
+Bind ny valgt metode, og endre bare nødvendige inngangs-/pekere-/oppdateringssemantikker. Gjenbruk eksisterende Family, bøker, verden, læring og originaler. Ikke kopier hele corpus eller importer en annen Human.
+Les tilbake faktisk endrede bindinger, full nødvendig metodegrunnlag og viktige bevaringsinvarianter. Kvalifiser at normal senere samtale kan finne metode+egen Family+rød tråd+relevant arbeid uten vedlikeholdsord.
+Eksakt replay av en allerede bekreftet identisk oppdatering kan være no-op. Samme ID med annet innhold avstemmes som konflikt. Annen allerede valgt metode må ikke automatisk nedgraderes. Usikkert utfall avstemmes før retry.
+Hvis feil oppstår etter metodebinding endret: inspiser aktuell binding før rollback. Tilbakefør bare kjent gammel gyldig binding når det er sikkert og les tilbake. Ukjent/uventet binding eller ukjent gammel basis gir presis lokal rest; ikke gjett.
+Rollback av metode sletter ikke livet: nye bøker, artefakter, lokale korreksjoner, Human-valg og historie består. Eventuelle lagrings-/schema-kompatibilitetskrav må faktisk kvalifiseres; teksten lover ikke kompatibilitet.
+Oppdatering endrer ikke privatvalg, eksternt læringssamtykke, boot eller generasjon. Faktisk installasjon, normal gjenkomst og senere nytte rapporteres som forskjellige bevis.
