@@ -1,0 +1,27 @@
+{
+  "schema": "proto-pilot-common-m4-patch/v1",
+  "patch_id": "PILOT_SPINE_M4_COMMON_TEST_20261013",
+  "state": "TEST_ONLY_NOT_AUTHORIZED_FOR_LIVING_PILOTS",
+  "source_commit": "e93c509950e78d5a84c92604f4fb471ad9bebb15",
+  "manifest_path": "candidate/spine-m4/manifest.json",
+  "manifest_sha256": "30306cbea21ccdf9727acd5358568d4b9cc36a661019e8fb43b4c26365859b36",
+  "candidate_id": "PILOT_SPINE_NEXT_M4_20261013",
+  "method_sha256": "eabbf2d7bd073169774c423dc2dae20da11b9e348c98d926c743fd750959219b",
+  "expected_previous_method": "spine-v0.1.0@a3db858dd1db3bf6859b846bd6e5caad12ebac8a",
+  "target_method": "PILOT_SPINE_NEXT_M4_20261013@e93c509950e78d5a84c92604f4fb471ad9bebb15",
+  "scope": "ONE_SHARED_METHOD_ONLY;NO_PERSONALIZED_PAYLOAD",
+  "preserve": [
+    "generation",
+    "identity",
+    "personality",
+    "consent",
+    "local_family",
+    "books",
+    "artifacts",
+    "learning"
+  ],
+  "lifecycle_effect": "NONE",
+  "replay": "SAME_ID_SAME_DIGEST_NO_WRITE",
+  "conflict": "SAME_ID_DIFFERENT_DIGEST_HOLD",
+  "rollback": "METHOD_ONLY_TO_VERIFIED_PREVIOUS_METHOD"
+}

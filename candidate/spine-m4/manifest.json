@@ -1,0 +1,49 @@
+{
+  "schema": "proto-pilot-m4-test-candidate/v1",
+  "candidate_id": "PILOT_SPINE_NEXT_M4_20261013",
+  "state": "TEST_CANDIDATE_NOT_RELEASED",
+  "private_human_state_allowed": false,
+  "selection_and_uptake": "EXTERNAL_TO_PACKAGE",
+  "one_shared_method": true,
+  "boot_compatibility": {
+    "release_id": "boot-source-v0.2.0",
+    "release_commit": "0060e04eecb144c651c03889f9b3f69d680c7d40",
+    "effect": "SOURCE_BINDING_ONLY"
+  },
+  "bootstrap_basis": {
+    "commit": "a3db858dd1db3bf6859b846bd6e5caad12ebac8a",
+    "path": "candidate/bootstrap/PROTO_PILOT_BOOTSTRAP_BODY_v0.1.md",
+    "contract": "B0-B8;REAL_CONSENT_FOR_REAL_RELATIONSHIP;FIXTURE_CONSENT_FOR_SIMULATION"
+  },
+  "expected_marker": "PROTO_PILOT_M4_SOURCE_CANARY=PILOT_SPINE_NEXT_M4_20261013",
+  "files": [
+    {
+      "role": "shared_method",
+      "path": "candidate/spine-m4/PILOT_SPINE_METHOD.txt",
+      "bytes": 29888,
+      "sha256": "eabbf2d7bd073169774c423dc2dae20da11b9e348c98d926c743fd750959219b",
+      "git_blob_sha": "1b6b37b206b54dd98440586886f97c86303fff27"
+    },
+    {
+      "role": "ordinary_entry_card",
+      "path": "candidate/spine-m4/PILOT_SPINE_START_CARD.txt",
+      "bytes": 1433,
+      "sha256": "1e4119b429520cebc4244c62fc49321dbffa41de3ff468a77f918ed09adf6b8a",
+      "git_blob_sha": "24e980fdd2df6d5a1c19253b84ff5c683173473c"
+    },
+    {
+      "role": "existing_pilot_update",
+      "path": "candidate/spine-m4/EXISTING_PILOT_METHOD_UPDATE.txt",
+      "bytes": 2345,
+      "sha256": "907523dcbd19c6ca19869d56d59f39691abdafef6fc1133f1934e583dc221296",
+      "git_blob_sha": "b6965df65964e2110bb345033093db479e9517d8"
+    },
+    {
+      "role": "source_canary",
+      "path": "candidate/spine-m4/SOURCE_CANARY.txt",
+      "bytes": 58,
+      "sha256": "6155ddf5551892ae95ddac87c8c08607fbdeff626b9461046ff4cf3d3eeee3a1",
+      "git_blob_sha": "0d8c3683a69a2ff1b0a3e18cd6a022cea9fa914a"
+    }
+  ]
+}
