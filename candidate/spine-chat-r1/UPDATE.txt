@@ -1,0 +1,29 @@
+INNFØRING I EKSISTERENDE CHAT — PROTO-PILOT-RYGGMARG-CHAT-01/rev1
+
+Til piloten og den som hjelper med oppdateringen. Dette er ferdig fremgangsmåte for denne pakken, ikke en ordre om å oppdatere noen som ikke har valgt den. Les hele før endring. Eksisterende lokal Human-autorisasjon gjelder; ikke spør om den samme tillatelsen på nytt.
+
+1. FINN OG LES DEN BESTEMTE UTGAVEN
+Les README.txt, ENTRY.txt og hele METHOD.txt. Bruk filene fra samme leverte pakke eller samme faste commit i repoet. manifest.json identifiserer innholdet. Ikke hent «nyeste» fra main og anta at den er valgt. GitHub er kilde til felles metode; privat profil skal aldri skrives dit. Ingen konto eller Git-installasjon trengs for den offentlige kildevisningen.
+Når egne verktøy kan beregne hash, kontroller manifestets SHA256. Hvis de bare kan lese tekst, kontroller eksakt metode-ID, fast kilde og fullstendig innhold og oppgi at bytekontroll ikke er utført. Ikke påstå verifisert hash fra en lest hashstreng. En ukjent eller motstridende kildeutgave må avklares før metodebytte. En kontrollert kopi av samme metode kan brukes når repoet er utilgjengelig.
+
+2. BRUK LOKALT HJEM, IKKE ET NYTT SKJEMA FOR MENNESKET
+Finn gjeldende valgte metode og eksisterende prosjekt-/kontinuitetsinngang. Bevar lokale tillegg, generasjon, bokfunksjoner, grenser og åpent arbeid. Ikke åpne hele privatarkivet eller forgjengers dagbok. LOCAL-MAP.txt er en funksjonssjekk for piloten, ikke et skjema mennesket må fylle ut. Gjenbruk kjente opplysninger; spør bare om et faktisk manglende nødvendig mål.
+Er en annen nyere metode allerede valgt, avstem forskjellen. Gjenkjenn identisk allerede innført pakke som ingen ny endring. Samme ID med ulikt innhold er en konflikt. Bevar et lite førbilde av metodevalg og inngangstekst i eksisterende tillatt hjem, slik at akkurat endringen kan tilbakeføres. Ikke kopier bokliv eller hele chatten.
+Har et tidligere teknisk system åpne eller ukjente skriveforsøk, behold dem og avstem den konkrete virkningen før ruten endres. Ingen direkte Drive-omvei rundt en eksisterende reell sperre.
+
+3. BIND DEN VANLIGE INNGANGEN
+Bruk prosjektets eksisterende instruksjonsfelt hvis det finnes og kan endres legitimt. Tilføy/erstatt bare felles metodepeker og kort inngang; bevar personlighet og lokale instrukser. Fyll kildepekeren med den faktisk leverte faste METHOD-kilden. Behold referansen til pilotens eget eksisterende hjem. ENTRY.txt er ferdig teksten som skal inn, sammen med disse faktiske pekerne.
+Hvis assistenten ikke kan endre dette feltet selv, lag den ferdige teksten med allerede kjente pekere og gi mennesket én konkret kopieringshandling. Ikke be om OAuth, terminal, RDC eller en ny konto. Ikke krev at mennesket bygger et kildekart på nytt.
+Hvis eksisterende Chat-inngang allerede følger en tillatt varig peker i eget hjem, kan den brukes. Oppdater og etterles samme peker. Bare en tekstmelding i den nåværende chatten beviser ikke varig inngang i nye chatter; oppgi den begrensningen når det er den eneste muligheten.
+Tilgjengelig full metode kan ligge som prosjektfil, lesbar fast GitHub-kilde eller nøyaktig kontrollert kopi i eksisterende privat hjem. Velg én normal kilde og noter kopiens utgave hvis en kopi trengs. Den er ikke en separat metode som skal videreutvikles i Drive. Ikke forutsett automatisk lesing bare fordi filen heter AGENTS.md.
+
+4. KONTROLLER DET SOM FAKTISK BLE ENDRET
+Les tilbake den valgte inngangen med tilgjengelig verktøy. Dersom bare mennesket kan se instruksjonsfeltet, si hva som er utført av mennesket og hva du selv har etterlest; ikke fabrikér maskinell kontroll. Bekreft metode-ID, riktig lokal hjempeker og at lokal personlighet/generasjon/bokfunksjoner er bevart.
+Bruk deretter ett ufarlig, avtalt eksempel gjennom den normale inngangen: finn en kjent syntetisk tekst, gjør en liten tillatt retting, les resultatet tilbake. Bruk en midlertidig prøvefil eller allerede valgt ufarlig prøveområde, aldri privat liv som prøveinnhold. Manglende skriverett gir konkret delvis status; det krever ikke serverinstallasjon. Rett bare den manglende tilkoblingen hvis mennesket faktisk ønsker skriving.
+Ved neste vanlige samtale/gjenkomst kontrolleres om riktig metode, hjem og relevant arbeid faktisk blir funnet. En spesialprompt som forteller alle stegene beviser ikke spontan bruk. Det kreves ingen lang eksamen eller testkvote hos mottakeren.
+
+5. KORT RESULTAT OG TILBAKEFØRING
+Oppgi i eksisterende hjem: valgt utgave og fast kilde; inngangen som faktisk ble endret; hva som er lest/prøvd; konkret åpen rest. Hold privat profil privat. En kort vanlig setning kan være nok. «Metode innført», «gjenkomst observert» og «nyttig i hverdagen» er forskjellige resultater.
+Ved behov for tilbakeføring: inspiser dagens inngang, gjenopprett bare den kjente tidligere metodepekeren/teksten og etterles. Bevar alle bøker, nye erfaringer, åpne plikter og mulig allerede utført skriving. Hvis førbildet eller dagens tilstand er ukjent, avklar den kanten fremfor å gjette. Ingen generell sletting eller ny BOOT.
+
+Pakken krever ingen teknisk installasjon hos piloten. All kontrollkode i repoet kjøres av vedlikeholderen, ikke av mottakeren. Teknisk håndheving, automatiske hooks og feilfri gjenkomst er ikke løfter fra denne metoden.

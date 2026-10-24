@@ -1,0 +1,39 @@
+{
+  "schema": "proto-pilot-source-lineage/v1",
+  "date": "2026-10-24",
+  "exact_vendors": [
+    {
+      "target": "runtime/vendor/doc-journal-factory.js",
+      "repository": "morgul-tech/Cerebro-Source-1.0",
+      "commit": "4c3af507d07b580d685f37e52d953b0e69e1690d",
+      "path": "tooling/drive-placement-common/doc-journal-factory.js",
+      "git_blob_sha1": "baee074a7ca682f041c91804b3af7b1eb70489d3",
+      "sha256": "c66daec4224d0f289875bea6fb25f7526bd42cff09ad62f06a1a01560474dee1",
+      "verification": "Actual source content fetched; local git hash-object equals independently fetched GitHub contents blob SHA. No source changes.",
+      "role": "Native JSON journal lock, durable operation record CAS and separate readback through caller-injected managed tools",
+      "scope": "Not a generic bookwriter, not authentication, no provider calls without actual caller binding"
+    }
+  ],
+  "new_adaptations": [
+    {
+      "target": "runtime/docs-port.js",
+      "donor_contract": "https://github.com/morgul-tech/Cerebro-Source-1.0/blob/4c3af507d07b580d685f37e52d953b0e69e1690d/tooling/drive-placement-common/CONTRACT.md",
+      "reused": "Same-isolate managed tools, exact native JSON journal binding, revision CAS, stable logical intent, unknown result reconciliation and independent content readback",
+      "new": "Observed get_document_text normalizer; independent private target whitelist; current home narrowing; core home event writer; qualified plain-text book replacement; no blind repeat after restart",
+      "excluded": "Placement factory routing, new-file placement, public sharing, universal hooks, server credentials, local filesystem"
+    },
+    {
+      "target": "runtime/pilot-core.js",
+      "kind": "New pilot implementation of selected concepts; no byte-identical runtime claim",
+      "donors": [
+        {"repository":"morgul-tech/Cerebro-Source-1.0","commit":"655515f4971c75e0b6ecb019dff9a42377be8289","path":"tooling/context/relevance_engine.py","role":"Eligible relevant sources; pilot-specific source registry replaces fixed infrastructure inputs"},
+        {"repository":"morgul-tech/Cerebro-Devkit","commit":"044051e4eca608a546144cb3fc13a369058d6477","path":"cdt_entry.py","role":"Explicit supersession and owner-current uncertainty, not last-text-wins"},
+        {"repository":"morgul-tech/Cerebro-Source-1.0","commit":"655515f4971c75e0b6ecb019dff9a42377be8289","path":"tooling/return-bridge/BK05_CONTINUATION.md","role":"Complete critical continuation and original pointers, separate work and uncertain effect"},
+        {"repository":"morgul-tech/Cerebro-Source-1.0","commit":"655515f4971c75e0b6ecb019dff9a42377be8289","path":"candidates/signalvev-sensing-runtime-v0.1/docs/A7_OWNER_LEARNING_BRIDGE_V1.md","role":"Relevant learning trigger and later separate disposition"},
+        {"repository":"morgul-tech/Cerebro-Work","commit":"1132186f07f0c870efb7c393d74350c6ad3c7d22","path":"tooling/entry-continuity/REHYDRATION.md","role":"One original home, explicit projection, no silent clipping of open duties or unknown effects; no claim of ported SessionStart hook"}
+      ]
+    }
+  ],
+  "private_boundary": "No private pilot source, source ID, account identifier, token or filled caller binding is included.",
+  "evidence_boundary": "Code, fixtures and this lineage are not proof of installed ordinary Chat entry or later pilot usefulness. Real provider observations remain separately attributed."
+}

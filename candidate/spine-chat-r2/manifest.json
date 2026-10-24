@@ -1,0 +1,127 @@
+{
+  "schema": "proto-pilot-package/v1",
+  "id": "PROTO-PILOT-RYGGMARG-CHAT-01/rev2",
+  "published_date": "2026-10-25",
+  "entry": "START-HER.txt",
+  "scope": "Functional method update for an existing pilot; local adoption separate",
+  "private_state_included": false,
+  "runtime": "Import-free JavaScript with existing qualified managed Docs callbacks",
+  "source_lineage": "docs/SOURCE-LINEAGE.json",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 86,
+      "sha256": "8c7c138fae73dfa1a0769801f2ef1987947d94cf280835270a454485e41abd85"
+    },
+    {
+      "path": "ADOPT.md",
+      "bytes": 5388,
+      "sha256": "424346e7080e0f329ccff57922b378770b27271b5f0601e814089456c2cad6ce"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1444,
+      "sha256": "62de30c22ddbb4377ba2b779016fa5ae17d2e1a950d0e163a816494f91a7647a"
+    },
+    {
+      "path": "docs/CORE-CONTRACT.md",
+      "bytes": 6999,
+      "sha256": "9202688b5f511d1c5073f06e28638e0035dab8081922fcf6b40195d08d619349"
+    },
+    {
+      "path": "docs/DOCS-PORT.md",
+      "bytes": 9335,
+      "sha256": "e08024bfe12e7ce978b34a2564a5614a8e34eea2b029abdec0cb1790705a1d01"
+    },
+    {
+      "path": "docs/FUNCTIONS.md",
+      "bytes": 2365,
+      "sha256": "5836f57c6609d9cda88482f7a59ab8d4e48a49c31c2e5c6355b7fe538adf2951"
+    },
+    {
+      "path": "docs/SOURCE-LINEAGE.json",
+      "bytes": 3441,
+      "sha256": "c175c341e964ccf0ea6fa8893406556695c1f0099ad2af2580575fef325653c5"
+    },
+    {
+      "path": "ENTRY.txt",
+      "bytes": 1835,
+      "sha256": "604a353521efb864e962c8ac507acd25d91254a7144cc20559b76e4f4e0ec414"
+    },
+    {
+      "path": "examples/synthetic-home.json",
+      "bytes": 2051,
+      "sha256": "6fc4e10c07d7ec222411b22264bee64417440add2f720ed778e4da521a9286e9"
+    },
+    {
+      "path": "METHOD.txt",
+      "bytes": 12985,
+      "sha256": "fc0b18e00bb3b4b927edbf9e9711b7d9e3b009eb0af3da151f35afce0bcffb46"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2398,
+      "sha256": "1843d4c00ccfa682cb91c4d4fedcee98b5ba26108bf210f1b4d602a877ae8142"
+    },
+    {
+      "path": "ROUTINES.md",
+      "bytes": 5110,
+      "sha256": "cc84a951f3728151a80d53be36df9029ac7a589b5800307c86b67b80cc5ccfb1"
+    },
+    {
+      "path": "runtime/docs-port.js",
+      "bytes": 12071,
+      "sha256": "88ef7b3144372a72c6d1a872bc86ee00ff91ebbfde9eb6bdf2557d4724d2f888"
+    },
+    {
+      "path": "runtime/pilot-core.js",
+      "bytes": 14739,
+      "sha256": "8fb3e10137f956a2decb024cc06b3cc1e03cd5abbf85d86ecbbbca0344c19317"
+    },
+    {
+      "path": "runtime/sha256.js",
+      "bytes": 2613,
+      "sha256": "e90b885a270426793642b6a02565f21e2855833ffad58c19be72269b43370ba3"
+    },
+    {
+      "path": "runtime/vendor/doc-journal-factory.js",
+      "bytes": 3864,
+      "sha256": "c66daec4224d0f289875bea6fb25f7526bd42cff09ad62f06a1a01560474dee1"
+    },
+    {
+      "path": "schema/home.schema.json",
+      "bytes": 5641,
+      "sha256": "ca6ac0a5c351d53c9c3f28af085be4498a9fdfe29675de2230a8d75a51000127"
+    },
+    {
+      "path": "START-HER.txt",
+      "bytes": 1565,
+      "sha256": "5e5655d790a81b979c5bdcb2d39ab2c37776d5bfa2afa778c2269dd314c5503a"
+    },
+    {
+      "path": "tests/core.test.cjs",
+      "bytes": 9763,
+      "sha256": "5b029b3cba186e9b452e7f02bf2bbc90e69e09fe06489d8ec5983760352ace11"
+    },
+    {
+      "path": "tests/docs-port.test.cjs",
+      "bytes": 11622,
+      "sha256": "3f15713d50fabc3f52b6ff8a92e430cca72899cadc82816289fc7c8f5a8440aa"
+    },
+    {
+      "path": "tests/sha256.test.cjs",
+      "bytes": 585,
+      "sha256": "919336de1b42a2fce40e220336d56fbe652eb695e911b5345d771ceebc9d39f8"
+    },
+    {
+      "path": "validation/verify_package.py",
+      "bytes": 1021,
+      "sha256": "377bbaf1e3a6f1ecd5b054ac75e1e04bd87631d8c2676ef1ffc4a5d7ceebee17"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 4334,
+      "sha256": "375374ff11f23e6e0ff29ef0ee9bc6f36da5eef15972a4ea32962096556a08b6"
+    }
+  ]
+}
