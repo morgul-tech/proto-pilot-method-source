@@ -1,0 +1,62 @@
+{
+  "method_id": "PROTO-PILOT-RYGGMARG-CHAT-01/rev1",
+  "status": "reviewed_candidate_not_recipient_installation",
+  "date": "2026-10-24",
+  "source_lineage": {
+    "repository": "https://github.com/morgul-tech/proto-pilot-method-source",
+    "base_main": "dd30684dfb97548597076e8d9daa6279786c8225",
+    "m4_method_commit": "e93c509950e78d5a84c92604f4fb471ad9bebb15",
+    "m4_method_path": "candidate/spine-m4/PILOT_SPINE_METHOD.txt",
+    "m4_method_sha256": "eabbf2d7bd073169774c423dc2dae20da11b9e348c98d926c743fd750959219b",
+    "boot_channel_changed": false
+  },
+  "recipient_required_new_software": [],
+  "manifest_integrity": "pinned Git commit or independently checked outer archive",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 14,
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+    },
+    {
+      "path": "CHANGELOG.txt",
+      "bytes": 2467,
+      "sha256": "ebe4a769df53a65f1e07d402d3798a7b32ffa3cce78600af699ca4f9342f5a4a"
+    },
+    {
+      "path": "ENTRY.txt",
+      "bytes": 1479,
+      "sha256": "1d92e8599f81fffc04a3507b83bac1053f98e4e1fc0415a5be068e81f146f52d"
+    },
+    {
+      "path": "LOCAL-MAP.txt",
+      "bytes": 1009,
+      "sha256": "e26a4ca7f0186241f11131e39a7f413b3a307955ac06bdec869d6b249bc1ddea"
+    },
+    {
+      "path": "METHOD.txt",
+      "bytes": 12989,
+      "sha256": "3090e967f4a1771a4d7420184b35b33cc5799387a2903d8ecec10cc87732cc24"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 1339,
+      "sha256": "698c15f017077656d685550ad444ea8887e28bf5d6791cb960766879769bc192"
+    },
+    {
+      "path": "UPDATE.txt",
+      "bytes": 5317,
+      "sha256": "ee86b449256426012226880848a868532004b6eea708cff64e08c08e193dc56d"
+    },
+    {
+      "path": "validation/README.txt",
+      "bytes": 2790,
+      "sha256": "2bb6abfe61a8d165b0b5148abad91d120b5fbb4197088ccceb86d72c40f17016"
+    },
+    {
+      "path": "validation/verify_package.py",
+      "bytes": 1751,
+      "sha256": "5f12788023bb5186e55b69be2d5f1caa50f7953a3fefd0574e3034d8ff5a1d3f"
+    }
+  ]
+}

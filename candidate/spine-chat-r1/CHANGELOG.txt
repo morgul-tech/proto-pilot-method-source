@@ -1,0 +1,22 @@
+ENDRINGER — PROTO-PILOT-RYGGMARG-CHAT-01/rev1
+
+Utgangspunkt: full M4-metode PILOT_SPINE_NEXT_M4_20261013 ved e93c509950e78d5a84c92604f4fb471ad9bebb15, og felles innføringsprinsipper fra spine-v0.1.0. Public main ved avstemming: dd30684dfb97548597076e8d9daa6279786c8225. Faktisk valgt lokal pilotmetode må fortsatt leses ved innføring. Åpen eldre M4-kandidat-PR #3 består; denne pakken slår den ikke sammen eller endrer kanalvalget.
+
+Beholdt: egen stemme/verden, stabil og operativ Living Family, alle ni refleksene, privat forgjengergrense, selvstendige bokfunksjoner, rikt forfatterskap, menneskets opphav, proporsjon og metode-only tilbakeføring.
+
+Konkretisert fra feltlæring og mottatt modning:
+• Kjent uttrykk → målrettet oppslag i eget hjem før ny gjetning.
+• Erkjent oppgave → faktisk utføring eller liten gjenfinnbar rest; et temaskifte lukker den ikke.
+• Betydning, postbehov, bokfunksjon, tillatelse og handling nå behandles hver for seg.
+• Hensikten kontrolleres før forslag, ikke bare før utgående verktøykall.
+• Motstrid er ikke automatisk endring; en tydelig rettelse skal likevel virke straks.
+• START og privatgrenser gjelder før lesing; god sluttprestasjon reparerer ikke et tidligere brudd.
+• Virkelig skrivehandling og separat innholdslesing før påstand om lagring; ukjent utfall undersøkes før gjentakelse.
+• Selektivt tilbakeblikk kan finne stille betydning uten postkvoter eller totalarkivering.
+• Inngang, faktisk lasting, utført arbeid og senere nytte holdes atskilt.
+
+Korrigert leveransevalg 24.10.2026: Den tidligere pilot-chat-bridge-01-r001 blandet metode med en ny server/app, SQLite og egen Google-autentisering. Dette er ikke mottakerkrav i denne pakken. Nyttig kode og gamle prøver bevares i sitt eget laboratoriearbeid; de er ikke belegg for den nye Chat-rutens faktiske bruk. Dette er en eksplisitt endring av produktomfanget etter Human-presisering, ikke en omgåelse av en aktiv servers sperrer eller ukjente effekter.
+
+Hva som ikke er levert: automatiske hooks, selvstendig døgnoppfølging, garantert oppdagelse av all mening, transaksjonslås over alle Drive-skrivere eller en ny treningsoppdatering av modellen. Dette skjules ikke bak et nytt filnavn. Metoden bruker verktøyenes faktiske egenskaper og rapporterer konkrete grenser.
+
+Personuavhengig felleskode/tekst kan deles. Private feltrapporter, bøker, profiler, konto-ID-er og testdokumenter publiseres ikke i dette repoet.
