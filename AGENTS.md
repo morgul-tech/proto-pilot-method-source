@@ -28,3 +28,9 @@ Distinguish authored package, local adoption, observed re-entry and later useful
 effect. Never claim that text instructions are deterministic hooks or that tests
 in a maintainer's client prove behavior in a recipient's chat. Method-only
 rollback preserves local books, experience, permissions and unresolved effects.
+
+For functional `candidate/spine-chat-r2`, read README.md, complete METHOD.txt,
+ADOPT.md and the affected runtime contract. This directory has executable
+import-free JS, synthetic tests and a pinned Source donor. Run relevant tests
+and the package verifier after changes. Preserve donor bytes/provenance and
+private bindings. Existing boot/source releases and channel remain separate.
