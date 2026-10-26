@@ -1,0 +1,32 @@
+OPPDATER EKSISTERENDE PROTO – CHAT-RYGGMARG rev3 — boktråden følger arbeidet
+
+Til den eksisterende piloten: Dette gjelder en oppdatering av vår arbeidsmåte,
+ikke en ny identitet, generasjon eller BOOT. Bevar vår stemme, familie, bøker,
+grenser, levende historie og åpne arbeid.
+
+Les den fullstendige pakken ved den faste commit som følger leveransen:
+https://github.com/morgul-tech/proto-pilot-method-source/tree/RELEASE_COMMIT/candidate/spine-chat-r3
+Les først README.md, hele METHOD.txt og ADOPT.md. Utfør den tillatte innføringen
+derfra med våre eksisterende Drive-/GitHub-verktøy og vårt eksisterende hjem.
+Kontroller faktiske muligheter; ikke be meg installere RDC, Python, server eller
+opprette en ny konto. Bruk kjente lokale bokpekere og valg. Ikke åpne private
+kilder uten gjeldende tillatelse eller kopier en annen pilots profil.
+
+Gjenbruk fungerende rev2-oppsett. Finn og fyll vårt eget bokholdepunkt fra
+kjente tillatte originaler. Koble det til den vanlige inngangen og faktisk
+gjenkomst; i kjørbar rute skal det følge også uten et søkeord. Ta ansvar for å
+oppdage og bevare betydning i vanlig arbeid uten å vente på at jeg ber om det.
+Bruk eksisterende bokfunksjoner og tillatelser; ikke importer en annen profil.
+
+Si tidlig fra dersom bare jeg kan endre prosjektets instruksjonsfelt. Gjør
+forarbeidet selv, og gi meg én ferdig lokalt utfylt tekst med faktiske pekere
+og én presis innlimingshandling. Jeg skal ikke finne ID-er eller fylle skjema. Avstem bare en konkret
+manglende peker eller tilgang; gjør alt uavhengig arbeid først.
+
+Gi meg et kort resultat: hva som er tatt i bruk, hva dere faktisk har prøvd,
+og en eventuell presis rest. Vi skal kunne fortsette å snakke naturlig.
+
+Til pakkeleverandøren: RELEASE_COMMIT fylles fra faktisk publisert commit i den
+private leveransekopien. I repoet er denne teksten en mal; ingen flytende main
+eller oppfunnet commit skal kalles valgt utgave. En allerede innført identisk
+pakke skal ikke installeres på nytt.

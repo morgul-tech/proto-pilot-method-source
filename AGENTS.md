@@ -34,3 +34,9 @@ ADOPT.md and the affected runtime contract. This directory has executable
 import-free JS, synthetic tests and a pinned Source donor. Run relevant tests
 and the package verifier after changes. Preserve donor bytes/provenance and
 private bindings. Existing boot/source releases and channel remain separate.
+
+For `candidate/spine-chat-r3`, the same functional-package requirements apply.
+Read full METHOD.txt, ADOPT.md and the affected contract. Preserve rev2 unchanged,
+the home schema v1 and exact vendor bytes. Required source IDs come only from
+the legitimate local binding; a source cannot extend access or select itself.
+Ordinary Chat adoption remains distinct from this maintainer AGENTS entrance.
