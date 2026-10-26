@@ -1,0 +1,25 @@
+{
+  "schema": "proto-pilot-home/v1",
+  "homeId": "synthetic-demo",
+  "version": 0,
+  "storage": "ALLOW",
+  "sources": [
+    {"id":"source-letter","name":"The lantern letter","aliases":["lantern","old letter"],"function":"Correspondence original","scope":"letter","locator":"synthetic://letter","revision":"fixture-1","access":"ALLOW","status":"CURRENT"},
+    {"id":"source-book","name":"The living book","aliases":["book"],"function":"Narrative book","scope":"letter","locator":"synthetic://book","revision":"fixture-1","access":"ALLOW","status":"CURRENT"},
+    {"id":"source-private","name":"Withheld example","aliases":["hidden token"],"function":"Unread source","scope":"letter","locator":"synthetic://forbidden","revision":"","access":"DENY","status":"UNKNOWN"}
+  ],
+  "decisions": [
+    {"id":"decision-1","scope":"letter","value":"Keep the research private","sourceId":"source-letter","sourceRevision":"fixture-1","status":"ACTIVE","supersedes":[],"basis":"VERIFIED"}
+  ],
+  "obligations": [
+    {"id":"work-1","scope":"letter","summary":"Consider the episode for the narrative book","sourceId":"source-letter","state":"OPEN","effect":"NONE","nextTrigger":"At the end of this letter task","evidence":"","books":[{"sourceId":"source-book","disposition":"PENDING","reason":"","evidence":""}]},
+    {"id":"work-2","scope":"letter","summary":"Letter finished; delivery outcome unresolved","sourceId":"source-letter","state":"COMPLETED","effect":"UNKNOWN","nextTrigger":"Reconcile the existing delivery","evidence":"synthetic://letter/result-1","books":[]}
+  ],
+  "learning": [
+    {"id":"learning-1","scope":"letter","summary":"An invitation can disclose research even without a send action","sourceId":"source-letter","triggers":["invitation","research"],"status":"ACTIVE","disposition":"PENDING","evidence":"synthetic://lesson-1"}
+  ],
+  "constraints": [
+    {"id":"constraint-1","scope":"letter","text":"Keep the unfinished research private in suggestions as well as messages","sourceId":"source-letter","status":"ACTIVE"}
+  ],
+  "applied": []
+}

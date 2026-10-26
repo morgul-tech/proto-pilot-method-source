@@ -17,6 +17,7 @@ select a method for a pilot, install a release, or grant action authority.
 | Inspect proposed material | [candidate/](candidate/) | The candidate's own identity, manifest and scope; its presence does not select or adopt it |
 | Review the installation-free Chat spine candidate | [Chat spine rev1](candidate/spine-chat-r1/README.txt) | Complete method, short entry, local update/rollback and explicit evidence limits; no new server, RDC or account required |
 | Use the functional Chat spine upgrade | [Chat spine rev2](candidate/spine-chat-r2/README.md) | Source map, decision/work/learning core, managed Docs adapter, actual connector evidence and concrete local adoption; no recipient server/RDC installation |
+| Adopt the preservation-entry improvement | [Chat spine rev3](candidate/spine-chat-r3/README.md) | Locally filled book checkpoint, selected source retention and same-work preservation; backward-compatible core, no new recipient installation |
 
 The current channel and an immutable release have different jobs. Resolve
 `channels/pilot.json` from current public `main` when a task requires current
